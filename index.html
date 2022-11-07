@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tipu sultan" />
     <title>Webinar Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,25 +15,377 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="grid">
-      <main class="grid__main">
-        <h1>Hello</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut a numquam
-          delectus.
-        </p>
-      </main>
+    <header class="wbr-header">
+      <div class="wbr-header__container">
+        <a href="#">
+          <figure>
+            <img src="./images/Logo.png" alt="logo" />
+          </figure>
+        </a>
+      </div>
+    </header>
+    <!-- .wbr-header end -->
 
-      <aside class="grid__sidebar">
-        <h2>World</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magni
-          aliquid ut ea fugiat voluptatum numquam? Rerum, aliquid accusantium
-          quam voluptas vero itaque veritatis velit facere esse suscipit harum
-          similique?
-        </p>
-      </aside>
-    </div>
-    <footer></footer>
+    <section class="wbr-hero">
+      <div class="wbr-hero__container">
+        <div class="wbr-hero__content-area">
+          <div class="wbr-hero__content">
+            <h1 class="wbr-hero__heading-text">
+              Your Free Webinar Starting Soon
+            </h1>
+            <div class="wbr-hero__time-area">
+              <div class="wbr-hero__days">
+                <time datetime="10:00">10</time>
+                DayS
+              </div>
+
+              <div class="wbr-hero__hrs">
+                <time datetime="14:00">14</time>
+                Hrs
+              </div>
+
+              <div class="wbr-hero__mins">
+                <time datetime="20:00">20</time>
+                Mins
+              </div>
+
+              <div class="wbr-hero__secs">
+                <time datetime="14:00">14</time>
+                Secs
+              </div>
+            </div>
+            <p class="wbr-hero__description-text">
+              In this free webinar is for small business owners, entrepreneurs.
+              Seats are limited, so register your seat today!
+            </p>
+          </div>
+          <!-- .wbr-hero__content end -->
+          <div class="wbr-hero__video">
+            <a href=""
+              ><svg
+                width="198"
+                height="198"
+                viewBox="0 0 198 198"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="99"
+                  cy="99"
+                  r="99"
+                  fill="white"
+                  fill-opacity="0.1"
+                />
+                <circle cx="99" cy="99" r="71" fill="white" />
+                <g clip-path="url(#clip0_39_17)">
+                  <path
+                    d="M89.9343 78.9261C86.1478 76.7541 83.0779 78.5334 83.0779 82.8972V115.1C83.0779 119.468 86.1478 121.245 89.9343 119.075L118.081 102.933C121.869 100.76 121.869 97.24 118.081 95.0678L89.9343 78.9261Z"
+                    fill="#ECA61F"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_39_17">
+                    <rect
+                      width="42"
+                      height="42"
+                      fill="white"
+                      transform="translate(81 78)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- .wbr-hero -->
+
+    <section class="wbr-form">
+      <div class="wbr-form__container">
+        <div class="wbr-form__content">
+          <h4 class="wbr-form__heading-text">
+            Enter your best email and register your seat
+          </h4>
+
+          <form action="" method="get" class="wbr-form__form-content">
+            <label class="custom-field">
+              <input type="text" placeholder=" " />
+              <span class="placeholder">Your Name</span>
+            </label>
+
+            <label class="custom-field">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder=" "
+                required
+              />
+              <span class="placeholder">Your Email</span>
+            </label>
+
+            <div class="wbr-form__subscribe">
+              <input type="submit" value="Yes! i want to book my seat!" />
+            </div>
+          </form>
+
+          <p class="wbr-form__form-description">
+            <a href="#">Privacy Policy:</a> We hate spam and promise to keep
+            your email address safe
+          </p>
+        </div>
+        <!-- .wbr-form__content end -->
+      </div>
+    </section>
+    <!-- .wbr-form end -->
+
+    <main class="wbr-service">
+      <div class="wbr-service__container">
+        <h2 class="wbr-service__heading-text">
+          What You Will Learn of Our Free Webinar
+        </h2>
+
+        <div class="wbr-service__cards-wrapper">
+          <div class="wbr-service__card">
+            <figure>
+              <img src="./images/developer.png" alt="developer" />
+            </figure>
+            <h5 class="wbr-service__heading">Web Development</h5>
+            <p class="wbr-service__description">
+              In this free webinar is for small business owners, entrepreneurs.
+              Seats are limited, so register your seat today!
+            </p>
+          </div>
+          <!-- .wbr-service__card end one-->
+
+          <div class="wbr-service__card">
+            <figure>
+              <img src="./images/design.png" alt="design" />
+            </figure>
+            <h5 class="wbr-service__heading">Web Design</h5>
+            <p class="wbr-service__description">
+              In this free webinar is for small business owners, entrepreneurs.
+              Seats are limited, so register your seat today!
+            </p>
+          </div>
+          <!-- .wbr-service__card end two-->
+
+          <div class="wbr-service__card">
+            <figure>
+              <img src="./images/Branding.png" alt="branding" />
+            </figure>
+            <h5 class="wbr-service__heading">Research & Branding</h5>
+            <p class="wbr-service__description">
+              In this free webinar is for small business owners, entrepreneurs.
+              Seats are limited, so register your seat today!
+            </p>
+          </div>
+          <!-- .wbr-service__card end three-->
+        </div>
+      </div>
+    </main>
+    <!-- .wbr-service end -->
+    <section class="wbr-speakers">
+      <div class="wbr-speakers__container">
+        <h3 class="wbr-speakers__heading-text">Our Awesome Speakers</h3>
+        <div class="wbr-speakers__cards-wrapper">
+          <div class="wbr-speakers__card">
+            <a href="#" class="wbr-speakers__card-link">
+              <div class="wbr-speakers__overlay"></div>
+              <figure>
+                <img src="./images/Michel.png" alt="michel" />
+                <figcaption>Michle Smith</figcaption>
+              </figure>
+              <p class="wbr-speakers__card-designation">Founder Of Themex</p>
+
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Topic</h3>
+                <p class="content-text">Future Of Web Development</p>
+              </div>
+            </a>
+          </div>
+          <!-- .wbr-speakers__card end -->
+
+          <div class="wbr-speakers__card">
+            <a href="#" class="wbr-speakers__card-link">
+              <div class="wbr-speakers__overlay"></div>
+              <figure>
+                <img src="./images/Michel.png" alt="michel" />
+                <figcaption>Michle Smith</figcaption>
+              </figure>
+              <p class="wbr-speakers__card-designation">Founder Of Themex</p>
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Topic</h3>
+                <p class="content-text">Future Of Web Development</p>
+              </div>
+            </a>
+          </div>
+          <!-- .wbr-speakers__card end -->
+
+          <div class="wbr-speakers__card">
+            <a href="#" class="wbr-speakers__card-link">
+              <div class="wbr-speakers__overlay"></div>
+              <figure>
+                <img src="./images/Michel.png" alt="michel" />
+                <figcaption>Michle Smith</figcaption>
+              </figure>
+              <p class="wbr-speakers__card-designation">Founder Of Themex</p>
+
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Topic</h3>
+                <p class="content-text">Future Of Web Development</p>
+              </div>
+            </a>
+          </div>
+          <!-- .wbr-speakers__card end -->
+        </div>
+        <!-- .wbr-speakers__cards-wrapper end -->
+      </div>
+    </section>
+    <!-- .wbr-speakers end -->
+
+    <section class="wbr-schedule">
+      <div class="wbr-schedule__container">
+        <h3 class="wbr-schedule__heading-text">Our Schedule</h3>
+
+        <div class="wbr-schedule__tabs-area">
+          <a href="#" data-tab="" class="wbr-schedule__button" role="button">
+            Day One
+          </a>
+
+          <a
+            href="#"
+            data-tab=""
+            class="wbr-schedule__button wbr-schedule__button--active"
+            role="button"
+          >
+            Day Two</a
+          >
+
+          <a href="#" data-tab="" class="wbr-schedule__button" role="button">
+            Day Three</a
+          >
+        </div>
+        <!-- .wbr-schedule__tabs-area end -->
+
+        <div class="wbr-schedule__cards-wrapper">
+          <div class="wbr-schedule__card">
+            <figure>
+              <img src="./images/Michel.png" alt="michel" />
+              <figcaption>Michle Smith</figcaption>
+            </figure>
+            <h4 class="wbr-schedule__card-heading">
+              Web Design: What would be the 2021 desgin trends
+            </h4>
+            <p class="wbr-schedule__card-time">
+              Time: <time datetime="10:00">10:00</time> -
+              <time datetime="10:00:00">12:00</time>
+            </p>
+          </div>
+          <!-- .wbr-schedule__card end -->
+
+          <div class="wbr-schedule__card">
+            <figure>
+              <img src="./images/Michel.png" alt="michel" />
+              <figcaption>Michle Smith</figcaption>
+            </figure>
+            <h4 class="wbr-schedule__card-heading">
+              Web Design: What would be the 2021 desgin trends
+            </h4>
+            <p class="wbr-schedule__card-time">
+              Time: <time datetime="10:00:00">10:00</time> -
+              <time datetime="12:00:00">12:00</time>
+            </p>
+          </div>
+          <!-- .wbr-schedule__card end -->
+
+          <div class="wbr-schedule__card">
+            <figure>
+              <img src="./images/Michel.png" alt="michel" />
+              <figcaption>Michle Smith</figcaption>
+            </figure>
+            <h4 class="wbr-schedule__card-heading">
+              Web Design: What would be the 2021 desgin trends
+            </h4>
+            <p class="wbr-schedule__card-time">
+              Time: <time datetime="10:00:00">10:00</time> -
+              <time datetime="12:00:00">12:00</time>
+            </p>
+          </div>
+          <!-- .wbr-schedule__card end -->
+        </div>
+        <!--.wbr-schedule__cards-wrapper end  -->
+      </div>
+    </section>
+    <!-- .wbr-schedule end -->
+
+    <section class="wbr-cta">
+      <div class="wbr-cta__container wbr-cta__container-grid">
+        <div class="wbr-cta__content">
+          <h2 class="wbr-cta__heading-text">Ready to upgrade your skills?</h2>
+          <p class="wbr-cta__description-text">
+            In this free webinar is for small business owners, entrepreneurs.
+            Seats are limited, so register your seat today!
+          </p>
+        </div>
+
+        <div class="wbr-cta__forms-area">
+          <div class="wbr-cta__forms">
+            <h4 class="wbr-cta__forms-heading">
+              Enter your best email and register your seat
+            </h4>
+            <form action="" method="get" class="wbr-cta__form">
+              <!-- <p class="wbr-cta__form-input">
+                <input type="text" name="name" id="name" required />
+              </p> -->
+
+              <!-- <label class="custom-field one wbr-cta__form-label">
+                <input
+                  type="text"
+                  class="wbr-cta__form-input"
+                  placeholder=" "
+                />
+                <span class="wbr-cta__form-placeholder">Your name</span>
+              </label> -->
+
+              <label class="custom-field">
+                <input type="text" placeholder=" " />
+                <span class="placeholder">Your Name</span>
+              </label>
+
+              <label class="custom-field">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder=" "
+                  required
+                />
+                <span class="placeholder">Your Email</span>
+              </label>
+
+              <div class="wbr-cta__subscribe">
+                <input type="submit" value="Yes! i want to book my seat!" />
+              </div>
+            </form>
+
+            <p class="wbr-cta__forms-description">
+              <a href="#">Privacy Policy:</a> We hate spam and promise to keep
+              your email address safe
+            </p>
+          </div>
+          <!-- .wbr-cta__forms end -->
+        </div>
+      </div>
+    </section>
+    <!-- .wbr-cta end -->
+
+    <footer class="wbr-footer">
+      <p class="wbr-footer__description">Copyright &copy; 2022 CodeRex</p>
+    </footer>
+    <!--.wbr-footer end -->
+
+    <script src="js/main.js"></script>
   </body>
 </html>

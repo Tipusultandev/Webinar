@@ -10,6 +10,28 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+figure {
+  margin: 0;
+}
+.wbr-hero__container,
+.wbr-header__container,
+.wbr-service__container,
+.wbr-speakers__container,
+.wbr-schedule__container,
+.wbr-cta__container,
+.wbr-container {
+  width: 100%;
+  max-width: 1330px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 body {
   margin: 0;
   padding: 0;

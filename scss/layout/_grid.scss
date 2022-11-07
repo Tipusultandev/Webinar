@@ -1,21 +1,13 @@
+@use "../util/" as u;
 .grid {
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
 
-  @media (min-width: 900px) {
+  @include u.breakpoint(medium) {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
-  }
-
-  &__main,
-  &__sidebar {
-    padding: 40px;
-  }
-
-  &__main {
-  }
-  &__sidebar {
+    background-color: yellow;
   }
 }
